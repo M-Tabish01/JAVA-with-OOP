@@ -1,20 +1,52 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
+//Abstraction
 package ooptype;
 
-/**
- *
- * @author M. Tabish
- */
+abstract class Animal{
+    
+    abstract void walk();
+    
+    public void eats(){
+        System.out.println("You eat grass");
+    }
+    // constructor 
+    
+    Animal(){
+
+    System.out.println("Hello Animal");
+
+}
+}
+class Horse extends Animal{
+    public void walk(){
+        System.out.println("Walk on 4 legs");   
+    }
+
+    Horse(){
+        System.out.println("Hello HORSE");
+    }
+    
+    
+}
+
+class Chiken extends Animal{
+    public void walk(){
+        System.out.println("Walk on 2 legs");
+        
+    }
+    
+
+}
+
 public class OOPType4Abstraction {
 
-    /**
-     * @param args the command line arguments
-     */
+
     public static void main(String[] args) {
-        // TODO code application logic here
+        Horse horse = new Horse();
+        horse.walk();
+        System.out.println("What are you doing");
+        horse.eats();
+        
+        
     }
     
 }

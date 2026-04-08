@@ -12,7 +12,7 @@ class Account{
 }
  
     public void setpassword(String pass){
-        pass = this.password;
+        this.password = pass;
     }
     
 }
