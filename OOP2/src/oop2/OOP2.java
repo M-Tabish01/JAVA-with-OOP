@@ -2,7 +2,7 @@
 package oop2;
 // name of class and constructor will be same
 // Connstructor doesnt have any return types
-// only one time constructor can be callef for the one object
+// only one time constructor can be called for the one object
 class Student{
     String name;
     int age;

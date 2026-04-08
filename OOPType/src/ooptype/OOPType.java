@@ -24,7 +24,7 @@ public class OOPType {
 
     public static void main(String[] args) {
         Student s1 = new Student();
-        s1.name = "Ayeshe";
+        s1.name = "Hammad";
         s1.age = 19;
         s1.printinfo("Tabish");
         
